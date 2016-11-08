@@ -1,0 +1,16 @@
+﻿<Window x:Class="TestAPI.CharInfoDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestAPI"
+        mc:Ignorable="d"
+        Title="CharInfoDisplay" Height="316.147" Width="419.83">
+    <Grid>
+        <Label x:Name="charNameLabel" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Height="48" Width="280" FontSize="26.667"/>
+        <Label x:Name="classLabel" Content="Class: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,77,0,0" Width="141"/>
+        <Label x:Name="raceLabel" Content="Race: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,108,0,0" Width="104"/>
+        <Label x:Name="levelLabel" Content="Level: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,51,0,0"/>
+
+    </Grid>
+</Window>
